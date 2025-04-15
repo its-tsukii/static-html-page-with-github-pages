@@ -83,6 +83,7 @@ Yes, GitHub Pages supports custom domains via DNS configuration.
 ## ✍️ Author
 **Aayush Kukade**  
 [GitHub](https://github.com/its-tsukii) | [LinkedIn](https://linkedin.com/in/aayushkukade)
+[Medium](https://medium.com/@sroy10012001)
 
 ---
 ✍️ Medium Blog Post – Task 6
@@ -128,7 +129,11 @@ Check it out here:
 🔗 https://its-tsukii.github.io/static-html-page-with-github-pages/
 
 🖼️ Screenshots
-(Insert your code and site screenshots here)
+
+| Live Website | HTML Code |
+|--------------|-----------|
+| ![Live Site](screenshots/live.png) | ![index.html Code](screenshots/index-code.png) |
+
 
 🧠 Key Learnings
 How to structure and write clean HTML pages
@@ -139,17 +144,6 @@ GitHub Pages limitations and real-world usage in DevOps
 
 The power of version control + automation
 
-❓ Interview Takeaways
-Some of the most valuable questions I reviewed during this task:
-
-What is GitHub Pages and what are its limits?
-
-Can it host dynamic apps? (No)
-
-How do you update or remove content?
-
-What happens when the repo is deleted?
-
 📌 Conclusion
 This was a simple yet powerful exercise in understanding how modern DevOps teams use automation to deploy content.
 I’ll be expanding this into a portfolio website with CI/CD in future tasks — stay tuned!
@@ -157,5 +151,6 @@ I’ll be expanding this into a portfolio website with CI/CD in future tasks —
 🔗 Project Links
 🔧 GitHub Repo: its-tsukii/static-html-page-with-github-pages
 
-🌍 Live Site: Visit Here
+🌍 Live Site: Visit Here 
+https://its-tsukii.github.io/static-html-page-with-github-pages/
 
