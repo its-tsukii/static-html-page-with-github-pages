@@ -58,5 +58,6 @@ static-html-page-with-github-pages/
 **Aayush Kukade**  
 [GitHub](https://github.com/its-tsukii) | [LinkedIn](https://linkedin.com/in/aayushkukade)
 [Medium](https://medium.com/@sroy10012001)
-
+This Repo Blog -- https://medium.com/@sroy10012001/hosting-a-static-html-website-with-github-pages-0c1c9230643d
+🔗 Master Blog -- https://medium.com/@sroy10012001/my-devops-internship-journey-with-elevate-labs-30-days-of-learning-d7252e409a20
 ---
