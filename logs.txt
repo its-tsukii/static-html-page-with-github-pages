@@ -1,0 +1,113 @@
+
+ASUS@AAYUSHPC MINGW64 ~
+$ mkdir static-html-page-with-github-pages
+cd static-html-page-with-github-pages
+touch index.html
+
+ASUS@AAYUSHPC MINGW64 ~/static-html-page-with-github-pages
+$ nano index.html
+
+ASUS@AAYUSHPC MINGW64 ~/static-html-page-with-github-pages
+$ git init
+git remote add origin https://github.com/its-tsukii/static-html-page-with-github-pages.git
+git add .
+git commit -m "Initial commit: Task 6 static HTML site"
+git branch -M main
+git push -u origin main
+Initialized empty Git repository in C:/Users/ASUS/static-html-page-with-github-pages/.git/
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+[master (root-commit) 1fc7140] Initial commit: Task 6 static HTML site
+ 1 file changed, 43 insertions(+)
+ create mode 100644 index.html
+remote: Repository not found.
+fatal: repository 'https://github.com/its-tsukii/static-html-page-with-github-pages.git/' not found
+
+ASUS@AAYUSHPC MINGW64 ~/static-html-page-with-github-pages (main)
+$ git init
+git remote add origin https://github.com/its-tsukii/static-html-page-with-github-pages.git
+git add .
+git commit -m "Initial commit: Task 6 static HTML site"
+git branch -M main
+git push -u origin main
+Reinitialized existing Git repository in C:/Users/ASUS/static-html-page-with-github-pages/.git/
+error: remote origin already exists.
+On branch main
+nothing to commit, working tree clean
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 826 bytes | 826.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/its-tsukii/static-html-page-with-github-pages.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+ASUS@AAYUSHPC MINGW64 ~/static-html-page-with-github-pages (main)
+$ head index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Static HTML Page with GitHub Pages</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+
+ASUS@AAYUSHPC MINGW64 ~/static-html-page-with-github-pages (main)
+$ cat index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Static HTML Page with GitHub Pages</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: #fff;
+      text-align: center;
+      padding: 50px;
+    }
+    .card {
+      background-color: rgba(255,255,255,0.1);
+      padding: 30px;
+      border-radius: 15px;
+      max-width: 600px;
+      margin: 0 auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    h1 {
+      color: #ffda79;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🚀 GitHub Pages Deployment</h1>
+    <p>This is a static HTML page hosted with <strong>GitHub Pages</strong>.</p>
+    <p>Task 6 of my Elevate Labs DevOps Internship ✅</p>
+  </div>
+  <footer>
+    — Aayush Kukade | DevOps Intern —
+  </footer>
+</body>
+</html>
+
+ASUS@AAYUSHPC MINGW64 ~/static-html-page-with-github-pages (main)
+$ ls
+index.html
+
+ASUS@AAYUSHPC MINGW64 ~/static-html-page-with-github-pages (main)
+$ nano README.md
+
+ASUS@AAYUSHPC MINGW64 ~/static-html-page-with-github-pages (main)
+$ mkdir screenshots
